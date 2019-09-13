@@ -95,9 +95,6 @@ function EtCalendar() {
     result += calendar.month(converted.month) + ' ';
     result += converted.day + '፣ ';
     result += converted.year + ' ';
-    result += converted.hour + ':';
-    result += converted.minute + ':';
-    result += converted.second + ' ';
     result += calendar.dayperiod(converted.period);
 
     return result;
